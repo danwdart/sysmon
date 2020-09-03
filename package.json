@@ -1,0 +1,59 @@
+{
+  "name": "sysmon",
+  "version": "1.0.0",
+  "description": "System Monitor",
+  "main": "index.js",
+  "scripts": {
+    "start": "grunt start",
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danwdart/sysmon.git"
+  },
+  "keywords": [
+    "system",
+    "monitor"
+  ],
+  "author": "Dan Dart <npm@dandart.co.uk>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/danwdart/sysmon/issues"
+  },
+  "homepage": "https://github.com/danwdart/sysmon#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "details-polyfill": "^1.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "handlebars": "^4.7.6",
+    "hogan": "^1.0.2",
+    "install": "^0.13.0",
+    "jquery": "^3.5.1",
+    "morgan": "^1.10.0",
+    "npm": "^6.14.8",
+    "passport": "^0.4.1",
+    "passport-oauth2": "^1.5.0",
+    "passport-oauth2-password-grant": "0.0.4",
+    "popper.js": "^1.16.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "fast-check": "^2.2.1",
+    "grunt": "^1.3.0",
+    "grunt-cli": "^1.3.2",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-eslint": "^23.0.0",
+    "grunt-register-tasks": "^1.0.0",
+    "grunt-run": "^0.8.1",
+    "grunt-sass": "^3.1.0",
+    "jest": "^26.4.2",
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^4.14.1"
+  }
+}
